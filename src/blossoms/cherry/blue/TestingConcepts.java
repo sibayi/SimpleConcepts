@@ -21,8 +21,8 @@ public class TestingConcepts {
 		String currentMonthStr = getMonthForInt(currentMonthInt - 1) + " " + yearInt.format(today);
 		String nextMonthStr = getNextMonthString(currentMonthInt, currentYearInt);
 		
-		System.out.println("this month: " + currentMonthStr);
-		System.out.println("next month: " + nextMonthStr);
+		System.out.println("Current month: " + currentMonthStr);
+		System.out.println("Next month: " + nextMonthStr);
 
 	}
 	
